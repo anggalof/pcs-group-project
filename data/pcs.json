@@ -1,0 +1,146 @@
+{
+  "data": {
+    "member": {
+      "name": "Tabay",
+      "position": "UI/UX Designer",
+      "member_since": "01 Juni 2021",
+      "location": "Kantor Sahid",
+      "image_url": "/images/gaga-adi.jpeg"
+    },
+    "activity": {
+      "checkIn": "08:30",
+      "checkOut": "",
+      "workingHours": 11000
+    },
+    "news": [
+      {
+        "image_url": "/images/avatar-1.png",
+        "name": "Robert Hercules",
+        "day": "Minggu",
+        "dateTime": "4 Maret 2024",
+        "description": "Terdapat makanan yang disediakan oleh tim IT untuk bisa di nikmati bersama, ditunggu kedatang untuk semua divisi di jam 5 sore ini ya. Makanannya enak-enak loh jadi jangan sampai tidak kebagian"
+      },
+      {
+        "image_url": "/images/avatar-2.png",
+        "name": "Ana Riswati",
+        "day": "Senin",
+        "dateTime": "5 Maret 2024",
+        "description": "Informasi terhadap seluruh karyawan agar segera melakukan lapor pajak SPT paling lambar akhir maret ini, terimakasih."
+      },
+      {
+        "image_url": "/images/avatar-3.png",
+        "name": "Leo Mukmin",
+        "day": "Senin",
+        "dateTime": "5 Maret 2024",
+        "description": "Kita bakal mengadakan hangeout bareng untuk seluruh divisi, untuk info lebih lanjut akan kita update disini ya. ditunggu!"
+      }
+    ],
+    "online": [
+      {
+        "name": "Jefril",
+        "image_url": "/images/profile/profile-1.jpeg",
+        "position": "Sahid"
+      },
+      {
+        "name": "Sam",
+        "image_url": "/images/profile/profile-2.jpeg",
+        "position": "BSD"
+      },
+      {
+        "name": "Aldo",
+        "image_url": "/images/profile/profile-3.jpg",
+        "position": "Sahid"
+      },
+      {
+        "name": "Zasami",
+        "image_url": "/images/profile/profile-4.jpeg",
+        "position": "BSD"
+      },
+      {
+        "name": "Risya",
+        "image_url": "/images/profile/profile-5.jpeg",
+        "position": "BSD"
+      },
+      {
+        "name": "Nesha",
+        "image_url": "/images/profile/profile-6.jpeg",
+        "position": "Sahit"
+      },
+      {
+        "name": "Arya",
+        "image_url": "/images/profile/profile-7.webp",
+        "position": "BSD"
+      },
+      {
+        "name": "Erwin",
+        "image_url": "/images/profile/profile-8.jpeg",
+        "position": "WFH"
+      }
+    ],
+    "notification": [
+      {
+        "infoTitle": "Reimbursement",
+        "infoDesc": "Your submission 'Lorem ipsum dolor sit amel...' with the' with a total cost of 50,000 has been paid, please check your BRIMO application, Thankyou",
+        "dateTime": "Today",
+        "image_url": "/images/notifications/notif-1.png",
+        "bgRead": false
+      },
+      {
+        "infoTitle": "Reimbursement",
+        "infoDesc": "Your submission 'description' has been rejected, please click for details",
+        "dateTime": "Yesterday",
+        "image_url": "/images/notifications/notif-2.png",
+        "bgRead": true
+      },
+      {
+        "infoTitle": "Reimbursement",
+        "infoDesc": "Your submission 'You submission will be processed according to the reimbursement schedule. Please wait",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-3.png",
+        "bgRead": false
+      },
+      {
+        "infoTitle": "Sickness",
+        "infoDesc": "Your submission has been approved by the Superior",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-4.png",
+        "bgRead": false
+      },
+      {
+        "infoTitle": "Sickness",
+        "infoDesc": "Your submission has been rejected, please confirm with your superior",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-5.png",
+        "bgRead": true
+      },
+      {
+        "infoTitle": "Sickness",
+        "infoDesc": "Your submission is being reviewed to the Superior for the approval process, please wait",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-6.png",
+        "bgRead": true
+      },
+      {
+        "infoTitle": "Overtime",
+        "infoDesc": "Your submission has been approved by the Superior",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-7.png",
+        "bgRead": false
+      },
+      {
+        "infoTitle": "Overtime",
+        "infoDesc": "Your submission has been rejected, please confirm with your superior",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-8.png",
+        "bgRead": true
+      },
+      {
+        "infoTitle": "Overtime",
+        "infoDesc": "Your submission is being reviewed to the Superior for the approval process, please wait",
+        "dateTime": "2022-10-06",
+        "image_url": "/images/notifications/notif-9.png",
+        "bgRead": true
+      }
+    ]
+  }
+}

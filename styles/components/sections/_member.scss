@@ -1,0 +1,84 @@
+@import "../../variable.scss";
+
+#member {
+  color: $primary-color;
+  position: relative;
+
+  h3 {
+    line-height: 0;
+  }
+
+  .member-box {
+    font-family: "SVN-Gilroy-Bold", sans-serif;
+    background: linear-gradient(to right, #E7242C, #CE1553);
+    color: $normal-color;
+    border-radius: 1rem;
+    padding: 1rem;
+    display: block;
+    justify-content: space-between;
+
+    .member-info__wrapper {
+      display: flex;
+      justify-content: space-between;
+
+      .member-info__detail {
+        display: flex;
+
+        .member-info__detail-image {
+          img {
+            border-radius: 50%;
+            width: 3rem;
+            height: 3rem;
+          }
+        }
+
+        .member-info__detail-more {
+          padding: 0 1rem;
+
+          .member-info__detail-name {
+            font-size: 18px;
+          }
+          .member-info__detail-position {
+            font-style: italic;
+            font-size: 12px;
+            color: #EB9AB3;
+          }
+        }
+      }
+      .member-info__since {
+        text-align: right;
+
+        .member-info__since-title {
+          font-style: italic;
+          font-size: 12px;
+          color: #EB9AB3;
+        }
+        .member-info__since-date {
+          color: #fff;
+          font-size: 18px;
+        }
+      }
+      .member-info__location {
+        .member-info__location-title {
+          font-size: 12px;
+          color: #EB9AB3;
+        }
+        .member-info__location-address {
+          color: #fff;
+          font-size: 18px;
+        }
+      }
+      .member-info__ico {
+        font-style: italic;
+        font-size: 12px;
+        color: #EB9AB3;
+        text-transform: uppercase;
+        display: flex;
+        align-items: flex-end;
+      }
+    }
+    .member-info__wrapper:first-child {
+      margin-bottom: 1rem;
+    }
+  }
+}

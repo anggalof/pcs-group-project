@@ -1,0 +1,82 @@
+@import "../../variable.scss";
+
+#activity {
+  color: $primary-color;
+  position: relative;
+  overflow: hidden;
+  padding: 1rem 0;
+
+  h3 {
+    font-family: "SVN-Gilroy-Bold", sans-serif;
+    line-height: 0;
+  }
+
+  .activity-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+
+    .activity-detail {
+      text-align: center;
+
+      .activity-info__icon-checkin {
+        font-size: 28px;
+        color: #F95846;
+        line-height: 2.5rem;
+      }
+
+      .activity-info__icon-checkout {
+        font-size: 28px;
+        color: #F95846;
+        line-height: 2.5rem;
+        transform: rotate(56.53deg);
+      }
+
+      .activity-info__icon-circle {
+        font-size: 28px;
+        color: #F95846;
+        line-height: 2.5rem;
+        transform: rotate(56.53deg);
+
+        .number {
+          font-family: "SVN-Gilroy-Bold", sans-serif;
+          position: absolute;
+          top: -1px;
+          left: 48%;
+          transform: rotate(-55deg);
+          font-size: 14px;
+        }
+
+        .arrow-right {
+          position: relative;
+        }
+        
+        /* Mengatur panahnya */
+        .arrow-right::before {
+          content: '';
+          position: absolute;
+          top: -6px;
+          left: -21px;
+          border-top: 6px solid transparent;
+          border-bottom: 6px solid transparent;
+          border-left: 6px solid #F95846;
+          transform: rotate(-18.47deg);
+        }
+      }
+
+      .activity-info__check-inout {
+        font-family: "SVN-Gilroy-Bold", sans-serif;
+        font-size: 14px;
+        line-height: 1.5rem;
+      }
+      .activity-info__check-inout-title {
+        font-size: 10px;
+        font-weight: 600;
+      }
+      .activity-info__working-hours {
+        font-family: "SVN-Gilroy-Bold", sans-serif;
+        color: #F95846;
+        line-height: 1.5rem;
+      }
+    }
+  }
+}

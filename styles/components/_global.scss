@@ -1,0 +1,25 @@
+
+
+.container {
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+
+  @media (min-width: 992) {
+    width: 970px;
+  }
+
+  @media (min-width: 768) {
+    width: 750px;
+  }
+}
+
+.max-w-480 {
+  max-width: 480px !important;
+}
+
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

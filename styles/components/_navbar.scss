@@ -1,0 +1,48 @@
+@import "../variable.scss";
+
+.navbar {
+  background: #FFFFFF;
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+
+    .nav-header {
+      font-family: "SVN-Gilroy-Bold", sans-serif;
+      font-weight: 800;
+      display: inline-block;
+      font-size: 22px;
+      padding: 2rem 0;
+
+      a {
+        color: #F82D18;
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        padding: 1.5rem 0;
+      }
+    }
+
+    .nav-search-icon {
+      display: flex;
+      align-items: center;
+      position: relative;
+
+      @media (max-width: 768px) {
+        color: $primary-color;
+        font-size: 22px;
+      }
+
+      .point-red {
+        border-radius: 50%;
+        background-color: #F82D18;
+        padding: 0.2rem;
+        position: absolute;
+        top: 40%;
+        left: 58%;
+        border: 1px solid #fff;
+      }
+    }
+  }
+}

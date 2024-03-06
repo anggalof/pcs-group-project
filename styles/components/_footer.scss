@@ -1,0 +1,55 @@
+@import "../variable.scss";
+
+#footer {
+  background: #FFFFFF;
+  padding: 16px 0;
+  bottom: 0;
+  margin-top: 4rem;
+  box-shadow: 0 1px 6px 0 rgba(0,0,0,.52);
+  position: relative;
+
+  .footer-menu {
+    display: flex;
+    justify-content: space-around;
+
+    .footer-icon {
+      .icon-circle {
+        background-color: #F95846;
+        border-radius: 50%;
+        color: #FFFFFF;
+        padding: 1.5rem 1.5rem;
+        position: absolute;
+        top: -32px;
+        left: 45%;
+      }
+
+      i {
+        font-size: 28px;
+        display: flex;
+        justify-content: center;
+      }
+
+      .icon-home {
+        color: #F95846;
+      }
+
+      .footer-icon__name {
+        font-size: 14px;
+        margin-top: 0.5rem;
+      }
+
+      .active {
+        font-family: "SVN-Gilroy-Bold", sans-serif;
+        color: #F95846;
+        font-weight: 800;
+      }
+
+      .center {
+        font-family: "SVN-Gilroy-Bold", sans-serif;
+        margin-top: 2.2rem;
+        color: #F95846;
+        font-weight: 800;
+      }
+    }
+  }
+}

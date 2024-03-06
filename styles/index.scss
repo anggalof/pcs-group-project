@@ -1,0 +1,24 @@
+@import "./components/navbar";
+@import "./components/global";
+@import "./components/footer";
+@import "./components/sections/member";
+@import "./components/sections/activity";
+@import "./components/sections/news";
+@import "./components/sections/online";
+@import "./components/elements/modal";
+@import "./fonts.scss";
+
+
+body,
+html {
+  font-family: "SVN-Gilroy", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #777;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+  margin: 0;
+}
+
